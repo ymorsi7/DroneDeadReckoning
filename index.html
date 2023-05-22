@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drone Controller</title>
+    <script src="assets/plotly-2.20.0.min.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "assets/style.css" />
+<!-- code for icon-->
+    <link rel = "icon" href = "assets/gus.png">
+
+
+</head>
+<body>
+    <div class="container">
+        <h1>Drone Controller</h1>
+        <button id="takeoff">Take Off</button>
+        <button id="land">Land</button>
+
+        <div>
+            <label for="leftInput">Left:</label>
+            <button id="left">Move Left</button>
+        </div>
+
+        <div>
+            <label for="rightInput">Right:</label>
+            <button id="right">Move Right</button>
+        </div>
+
+        <div>
+            <label for="forwardInput">Forward:</label>
+            <button id="forward">Move Forward</button>
+        </div>
+
+        <div>
+            <label for="backwardInput">Backward:</label>
+            <button id="backward">Move Backward</button>
+        </div>
+
+        <div>
+            <label for="upInput">Up:</label>
+            <button id="up">Move Up</button>
+        </div>
+
+        <div>
+            <label for="downInput">Down:</label>
+            <button id="down">Move Down</button>
+        </div>
+
+        <button id="rotateCW">Rotate CW</button>
+        
+        <button id="rotateCCW">Rotate CCW</button>
+
+        <div id="plot"></div>
+    </div>
+
+</body>
+
+<script src="assets/main.js"></script>
+</html>
